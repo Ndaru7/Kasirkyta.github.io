@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: gray;
+    padding-top: 100px;
+}
+
+label {
+    font-size: x-large;
+    text-align: center;
+}
+
+fieldset {
+    border-color: black;
+}
+
+legend {
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: darkgreen;
+    color: whitesmoke;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: large;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(129, 207, 12);
+}
+
+div {
+    border-radius: 1px;
+    background-color: whitesmoke;
+    padding: 5px;
+    
+}
